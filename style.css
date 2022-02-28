@@ -1,0 +1,11 @@
+.banner {
+    height: 180px;
+    background-color: blue;
+    background-image: url(img/pattern.png);
+    background-position: top right;
+}
+
+.banner img {
+    height: 40%;
+    padding: 90px 0 0 5px;
+}
