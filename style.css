@@ -1,6 +1,12 @@
+section {
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Stile Header*/
 .banner {
     height: 180px;
-    background-color: blue;
+    background-color: rgb(78, 160, 255);
     background-image: url(img/pattern.png);
     background-position: top right;
 }
@@ -8,4 +14,32 @@
 .banner img {
     height: 40%;
     padding: 90px 0 0 5px;
+}
+
+/*Stile Section 1 (Titolo)*/
+section h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+section span {
+    color: rgb(137, 137, 137);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#booleaner {
+    color: rgb(52, 177, 232);
+    font-size: larger;
+}
+
+#giorno {
+    font-size: small;
+}
+
+/*Stile Section 2 (Galleria)*/
+.galleria p {
+    margin: 0;
+    font-weight: bolder;
+    font-size: small;
 }
