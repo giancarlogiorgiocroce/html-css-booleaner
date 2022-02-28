@@ -1,0 +1,101 @@
+section, footer {
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/*Stile Header*/
+.banner {
+    height: 180px;
+    background-color: rgb(78, 160, 255);
+    background-image: url(img/pattern.png);
+    background-position: top right;
+}
+
+.banner img {
+    height: 40%;
+    padding: 90px 0 0 10px;
+}
+
+/*Stile Section 1 (Titolo)*/
+section h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+section span {
+    color: rgb(137, 137, 137);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#booleaner {
+    color: rgb(52, 177, 232);
+    font-size: larger;
+}
+
+#giorno {
+    font-size: small;
+}
+
+/*Stile Section 2 (Galleria)*/
+.galleria p {
+    margin: 0;
+    font-weight: bolder;
+    font-size: small;
+}
+
+/*Stile Section 4 (Tabella)*/
+.tabella table thead tr {
+    color: white;
+    background-color: rgb(32, 169, 229);
+    text-align: left;
+}
+
+.tabella table tbody .riga-dispari {
+    background-color: rgb(177, 229, 242);
+}
+
+.tabella table tbody .parametri {
+    width: 25%;
+}
+
+.tabella table tbody .spiegazione {
+    width: 50%;
+}
+
+/*Stile Footer*/
+footer h3 {
+    color: grey;
+    margin: 0;
+}
+
+footer>div {
+    margin-top: 15px;
+}
+
+footer p {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+footer .immagine {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 125px;
+}
+
+footer .prima.immagine {
+    background-image: url(img/monitor.jpg);
+
+}
+
+footer .seconda.immagine {
+    background-image: url(img/graph.jpg);
+}
