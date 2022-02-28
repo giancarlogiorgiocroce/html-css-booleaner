@@ -13,7 +13,7 @@ section {
 
 .banner img {
     height: 40%;
-    padding: 90px 0 0 5px;
+    padding: 90px 0 0 10px;
 }
 
 /*Stile Section 1 (Titolo)*/
@@ -42,4 +42,23 @@ section span {
     margin: 0;
     font-weight: bolder;
     font-size: small;
+}
+
+/*Stile Section 4 (Tabella)*/
+.tabella table thead tr {
+    color: white;
+    background-color: rgb(32, 169, 229);
+    text-align: left;
+}
+
+.tabella table tbody .riga-dispari {
+    background-color: rgb(177, 229, 242);
+}
+
+.tabella table tbody .parametri {
+    width: 25%;
+}
+
+.tabella table tbody .spiegazione {
+    width: 50%;
 }
